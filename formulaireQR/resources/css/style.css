@@ -1,0 +1,117 @@
+:root {
+    --red-blue: #123123;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+:root {
+    --etml-white: #FBFBFB;
+    --etml-blueW: #0160CF;
+    --etml-green: #099c3c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--etml-white);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: var(--etml-white);
+    background-color: var(--etml-blueW);
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 20px;
+
+}
+
+.title {
+    background-color: var(--etml-blueW);
+    color: var(--etml-white);
+    font-size: 1.1rem;
+}
+
+.intro {
+    margin: 15px;
+    font-size: 1rem;
+    color: var(--etml-blueW);
+    text-align: center;
+}
+
+.fin {
+    position: fixed;
+    text-align: justify;
+    font-size: 1rem;
+    color: var(--etml-white);
+    background-color: var(--etml-blueW);
+    margin: 0;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    padding: 10px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+}
+
+
+
+
+
+.selectimg {
+    background-color: var(--etml-blueW);
+    text-align: center;
+    margin-bottom: 20px;
+    width: 60%;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.selectimg p {
+    background-color: var(--etml-blueW);
+    margin: 10px;
+    color: var(--etml-white);
+}
+
+.selectimg i {
+    background-color: var(--etml-blueW);
+}
+
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    padding: 5px 5px;
+    outline: 0;
+    border: 1px solid var(--etml-blueW);
+}
+
+form input[type='submit'] {
+    color: var(--etml-white);
+    border: 0;
+    background-color: var(--etml-green);
+    margin: 20px auto;
+    width: 30%;
+}
+
+form label {
+    color: var(--etml-blueW);
+    padding: 20px;
+}
