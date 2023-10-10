@@ -9,7 +9,6 @@ L'image sera envoyée via un code QR qui sera mis à disposition de ces derniers
 ## formulaireQR
 Intercepter les mails via Laragon [Télécharger : ](https://laragon.org/download/index.html)
 
-
 Tutoriel pour les emails en PHP [Voir la vidéo : ](https://www.youtube.com/watch?v=SXKzTjxXW88&t=270s)
 
 Les utilisateurs qui arrivent sur le formulaire via le code QR, seront amenés à importer une image de leur pellicule afin que cette dernière soit envoyée par mail à un des responsables de l'activité pour qu'il puisse la mettre dans le dossier images du repo actuel.
