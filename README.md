@@ -2,7 +2,7 @@
 
 # Portes ouvertes - Conception de site internet
 
-## siteInternet
+[Contribution guidelines for this project](docs/CONTRIBUTING.md)
 Test
 
 ## formulaireQR
