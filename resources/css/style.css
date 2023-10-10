@@ -1,0 +1,73 @@
+:root {
+    --etml-white: #FBFBFB;
+    --etml-blueD: #1E4393;
+    --etml-blueW: #0160CF;
+}
+
+html,
+body {
+    background-color: var(--etml-white);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+}
+
+.left {
+    width: 30rem;
+    height: 150%;
+    background-color: var(--etml-blueW);
+}
+
+.left .logoETML {
+    justify-content: center;
+    width: 70%;
+    display: grid;
+    margin: auto;
+    padding: 10px;
+}
+
+.left .logoETML {
+    transition: .3s ease;
+}
+
+.left .images {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    width: 65%;
+    height: 80vh;
+}
+
+.left .images img {
+    margin: 20px auto ;
+    width: 50%;
+    justify-content: center;
+    transition: .3s;
+    display: grid;
+}
+
+.left .images img:hover {
+    opacity: 75%;
+    transition: .3s;
+    width: 55%;
+}
+
+.right {
+    width: 100%;
+    height: 150%;
+    background-color: var(--etml-white);
+}
+
+.right .boxes-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px auto;
+}
+
+.right .boxes-content .box {
+    margin: 10px auto;
+    border: var(--etml-blueW) solid 1px;
+}
