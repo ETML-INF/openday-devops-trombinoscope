@@ -110,6 +110,10 @@ body {
     text-align: justify;
 }
 
+.right .boxes-content .box .description {
+    text-align: center;
+}
+
 @media (max-width: 1880px) {
     .right .boxes-content {
         display: grid;
