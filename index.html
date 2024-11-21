@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <title>PO23 - Trombinoscope</title>
@@ -8,11 +9,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <nav class="left">
+    <header class="left">
+        <p id="profileCounter">Nombre de profils : </p>
         <img class="logoETML" src="resources/images/ETML_blanc.png" width="128" alt="etmlLogo">
-    </nav>
+        <p class="title">TROMBINOSCOPE - PORTES OUVERTES 2024</p>
+    </header>
     <div class="container">
-        <p class="title">TROMBINOSCOPE - PORTES OUVERTES 2023</p>
         <div class="boxesContainer">
             
             <div class="box">
@@ -282,5 +284,12 @@
             </div>
         </div>
     </div>
+    <script>
+        // Trouver tous les éléments avec la classe "box"
+        const profiles = document.querySelectorAll('.box');
+
+        // Afficher le nombre de profils dans l'élément avec l'ID "profileCounter"
+        document.getElementById('profileCounter').innerText = `Nombre de profils : ${profiles.length}`;
+    </script>
 </body>
 </html>
