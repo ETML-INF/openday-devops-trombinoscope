@@ -37,9 +37,9 @@ header {
     margin-right: 4rem;
     background-color: var(--etml-white);
 }
-p{
+header p{
     justify-content: start;
-    
+    color:#FBFBFB;
 }
 .title {
     text-align: center;
@@ -106,13 +106,44 @@ p{
     text-align: center;
 }
 
+#profileCounter{
+   display: block;
+   
+}
 
+footer{
+    width: 100%;
+    color:white;
+    background-color: var(--etml-blueW);
+    position: sticky;
+    top: 0;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.stats{
+    background-color: rgba(113, 142, 179, 0.089);
+    padding:0.7%;
+    border-style: solid;
+    border-color:#0000ac48;
+    margin-bottom:auto;
+}
 @media (max-width: 600px) {
 
     header{
-        margin-top: 0px;
+        margin: 0px;
     }
-
+    .headerInfo{
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+    header img{
+        visibility: hidden;
+        width: 0px;
+        height: 0px; 
+    }
     .boxesContainer {
         display: flex;
         flex-direction: row-reverse;
