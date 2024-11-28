@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <title>PO23 - Trombinoscope</title>
@@ -8,13 +9,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <nav class="left">
+    <header class="left">
         <img class="logoETML" src="resources/images/ETML_blanc.png" width="128" alt="etmlLogo">
-    </nav>
+        
+        <p class="title">TROMBINOSCOPE - PORTES OUVERTES 2024</p>
+        <div class="headerInfo">
+            <p>Ecole technique des métiers lausanne</p>
+            <p>Rue de Sébeillon 9, 1004 Lausanne</p>
+            <p></p>
+          </div>
+    </header>
     <div class="container">
-        <p class="title">TROMBINOSCOPE - PORTES OUVERTES 2023</p>
         <div class="boxesContainer">
-            
             <div class="box">
                 <img src="resources/images/MagnumProfile-DGEP.png" alt="">
                 <p class="description">
@@ -280,7 +286,25 @@
                 <p class="description"><br>fais toi plaiz<br><br></p>
                 <p class="nom">Matthieu</p>
             </div>
-        </div>
+    <div class="stats">
+        <p id="profileCounter">Nombre de profils : </p>
     </div>
+        </div>
+        
+    </div>
+    <script>
+        // Trouver tous les éléments avec la classe "box"
+        const profiles = document.querySelectorAll('.box');
+
+        // Afficher le nombre de profils dans l'élément avec l'ID "profileCounter"
+        document.getElementById('profileCounter').innerText = `Nombre de profils : ${profiles.length}`;
+    </script>
 </body>
+<footer>
+
+        <p>ETML - Rue de Sébeillon 9, 1004 Lausanne</p>
+        <p>Porte ouverte 2024</p>
+
+    
+</footer>
 </html>
